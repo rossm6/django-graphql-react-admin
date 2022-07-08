@@ -1,0 +1,15 @@
+/.venv
+/db.sqlite3
+__pycache__
+/config/master.key
+/terraform/.terraform
+/latest.dump
+/backend/project/db.sqlite3
+.DS_Store
+/node_modules
+/backend/media
+/backend/db.sqlite3
+/cypress/videos
+/backend/static
+/backend/sent_emails
+/backend/project/static/dist
