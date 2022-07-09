@@ -38,10 +38,17 @@ function List () {
     });
 
     return (
-        <Table
-            columns={columns}
-            rows={rows}
-        />
+        <Box sx={{ 
+            display: "flex", 
+            justifyContent: "center", 
+            alignItems: "center",
+            height: "100vh"
+        }}>
+            <Table
+                columns={columns}
+                rows={rows}
+            />
+        </Box>
     );
 
 }
