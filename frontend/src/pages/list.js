@@ -42,12 +42,14 @@ function List () {
             display: "flex", 
             justifyContent: "center", 
             alignItems: "center",
-            height: "100vh"
+            height: "100vh",
         }}>
-            <Table
-                columns={columns}
-                rows={rows}
-            />
+            <Box sx={{ width: 700 }}>
+                <Table
+                    columns={columns}
+                    rows={rows}
+                />
+            </Box>
         </Box>
     );
 

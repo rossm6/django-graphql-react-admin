@@ -1,0 +1,25 @@
+{
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+      "editor.insertSpaces": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    "python.analysis.extraPaths": [
+      "backend"
+    ],
+    "python.linting.pylintEnabled": true,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.workingDirectories": [
+      "./frontend",
+  ]
+}
